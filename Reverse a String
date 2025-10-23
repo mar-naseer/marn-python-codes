@@ -1,0 +1,8 @@
+How to Reverse a String in Python
+
+def main(x):
+  return x[::-1]
+
+mytxt = main("I wonder how this text looks like backwards")
+
+print(mytxt)
