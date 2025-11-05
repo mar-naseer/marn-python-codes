@@ -1,0 +1,37 @@
+Program to Find the LCM of Two Numbers
+What exactly does LCM stand for? The Least Common Multiple of two numbers is referred to as LCM. The LCM of two numbers a and b, for example, is the lowest positive integer divisible by both.
+
+Input:
+a= 23   b=12
+
+Output:
+The LCM of the given two numbers 23 , 12 = 276
+____________________________________________________________________________________________________________
+# given two numbers
+# given number a
+number1 = 23
+# given number b
+number2 = 12
+# finding bigger number of the given two numbers using if statement
+if(number1 > number2):
+    maxValue = number1
+else:
+    maxValue = number2
+while(True):
+    if(maxValue % number1 == 0 and maxValue % number2 == 0):
+        print("The LCM of the given two numbers",
+              number1, ",", number2, "=", maxValue)
+        break
+    maxValue = maxValue + 1
+
+[ OR ]
+
+---> (using for loop):
+a = 6
+b = 4
+
+# the LCM will never be more than a*b
+for i in range(max(a, b), (a * b) + 1):
+    if (i % a == 0) and (i % b == 0):
+        print("The LCM of", a, "and", b, "is", i)
+        break
