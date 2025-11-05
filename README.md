@@ -23,7 +23,7 @@ This repository contains clean and well-documented Python scripts for common pro
 Each program is simple, efficient, and beginner-friendly — written to improve problem-solving logic and Python syntax fluency.
 
 ---
-🎯 Goals
+## 🎯 Goals
 Stay consistent with Python coding practice 🧩
 
 Improve logic-building and problem-solving ability ⚙️
@@ -32,7 +32,8 @@ Strengthen foundations for interviews and hackathons 💼
 
 Build real-world projects and AI/ML models soon 🤖
 
-🧰 Tech Stack
+
+## 🧰 Tech Stack
 Language: Python 🐍
 
 Editor: PyCharm / VS Code
@@ -41,11 +42,11 @@ Version Control: Git & GitHub
 
 OS: Windows / Linux
 
-📈 My Progress Tracker
+## 📈 My Progress Tracker
 I love watching those green squares fill up on my GitHub graph — it keeps me motivated to code, learn, and grow every single day!
 
 
-👨‍💻 About Me
+## 👨‍💻 About Me
 M.A. Rehman Naseer
 🎓 B.E in Computer Science (AI & ML)
 💡 Aspiring Python Developer | AI/ML Enthusiast | Data Science Learner
@@ -53,8 +54,8 @@ M.A. Rehman Naseer
 🌐 GitHub Profile
 📧 Let’s connect and build something impactful!
 
-⭐ If you find this repository helpful, don’t forget to star it!
-Your support motivates me to keep improving and sharing more Python projects. 🌟
+## ⭐ If you find this repository helpful, don’t forget to star it!
+## Your support motivates me to keep improving and sharing more Python projects. 🌟
 
 ## 💻 Example Program
 
