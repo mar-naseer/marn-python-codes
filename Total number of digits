@@ -1,0 +1,19 @@
+Program to Count the Number of Digits Present In a Number in Python
+__________________________________________________________________________________________
+given_number = 27482
+# initializing a variable that counts the digit of the given number.
+# initlaize it with 0
+digits_count = 0
+# using while loop to traverse digit by digit of the given number
+while (given_number > 0):
+    # divide the number by 10
+    given_number = given_number//10
+    # increment the count
+    digits_count = digits_count + 1
+# printing the digits count of the given number
+print("The total digits present in the given number=", digits_count)
+
+Output:
+
+The total digits present in the given number= 5
+__________________________________________________________________________________________
