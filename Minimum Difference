@@ -1,0 +1,62 @@
+Find the Minimum Difference Between the Index of Two Given Elements Present in an Array in Python
+_________________________________________________________________________________________________________
+Input:
+
+given list =[7, 9, 6, 8, 7, 5, 9, 4, 3, 2, 11, 19, 23, 4, 5, 8, 6, 3 ,2, 9, 7,]
+given first element =7
+given second element =8
+Output:
+
+The minimum difference between the elements 7 and 8 = 1
+_________________________________________________________________________________________________________
+
+import sys
+
+
+# function which accepts the given list and the given two elements as arguments
+# and return the minimum difference between the given two elements
+def findMinDiff(given_list, firstele, secondele):
+
+    firstindex = secondindex = len(given_list)
+    min_differ = sys.maxsize
+
+    # traverse the given list
+    for i in range(len(given_list)):
+
+        # if the current element is `firstele`
+        if given_list[i] == firstele:
+            # set `firstindex` to the current index
+            firstindex = i
+
+            # if `secondele` is seen before, update the result if required
+            if secondindex != len(given_list):
+                min_differ = min(min_differ, abs(firstindex - secondindex))
+
+        # if the current element is `secondele`
+        if given_list[i] == secondele:
+            # set `secondindex` to the current index
+            secondindex = i
+
+            # if `firstindex` is seen before, update the result if required
+            if firstindex != len(given_list):
+                min_differ = min(min_differ, abs(firstindex - secondindex))
+
+    return min_differ
+
+# Give the list as static input and store it in a variable.
+
+given_list = [1, 3, 7, 10, 11, 13, 5, 4, 8, 2, 4, 3, 6, 5, 21, 8, 9]
+# Give the two elements as static input and store them in separate variables.
+firstele = 2
+secondele = 5
+# Pass the given list and two elements as arguments to the findMinDiff function.
+miniDifference = findMinDiff(given_list, firstele, secondele)
+
+if miniDifference != sys.maxsize:
+    print("The minimum difference between the elements",
+          firstele, 'and', secondele, '=', miniDifference)
+# if the two elements are not found then the minidifference will
+# be sys.maxsize in that case print it as invalid input
+else:
+    print("Invalid input")
+
