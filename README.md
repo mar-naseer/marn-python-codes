@@ -16,7 +16,7 @@ This repository contains clean and well-documented Python scripts for common pro
 - 🔢 Arithmetic & Logical Operations  
 - 🔁 Loops & Conditional Programs  
 - 🧮 Factorials, Primes, LCM, and GCD  
-- 🔡 String Manipulations (Reversing, Palindrome, etc.)  
+- 🔡 String Manipulations (Reversing, Palindrome, etc..)  
 - 🔄 Lists, Functions, and User Input Programs  
 - 💡 Beginner to Intermediate Problem Solving  
 
