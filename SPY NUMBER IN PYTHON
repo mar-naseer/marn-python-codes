@@ -1,0 +1,47 @@
+A number whose sum of digits is equal to the product of digits is said to be a Spy Number.
+
+In order to check whether the given number is a spy number or not, we require two functions :
+
+sum_of_digits() - to calculate the sum of digits of the number
+product_of_digits () -to calculate the product of digits of the number
+
+ALGORITHM FOR SUM_OF_DIGITS FUNCTION:
+
+1.start
+2. The number "n" is passed as parameter to this function
+3.Variable s is initialized to 0 for storing the sum of digits of "n".
+4.while "n" is not equal to 0, the following steps need to be repeated:
+In “rem” store the last digit of n
+Calculate s as s+=rem
+Update n as n//=10
+5.Stop
+
+Code :
+def sum_of_digits(n):
+                    s=0 #sum
+                    while n!=0 :
+                      rem=n%10 #extracting the last digit of n
+                      s=s+rem #calculating sum
+                      n=n//10 #updating n
+                    return s
+                  def product_of_digits(n):
+                    p=1 #product
+                    while n!=0:
+                      rem=n%10 #extracting the last digit of n
+                      p=p*rem #calculating product
+                      n=n//10 #updating n
+                    return p
+                  n=int(input("Enter a number:")) #n-number 
+                  sum=sum_of_digits(n) #storing value of sum_of_digits() in sum
+                  product=product_of_digits(n) #storing value of product_of_digits() in product
+                  if(sum==product): #checking condition for spy number
+                    print("{} is a Spy Number".format(n))
+                  else:
+                    print("{} is not a Spy Number".format(n))
+
+OUTPUT:
+
+Enter a number:123
+123 is a Spy Number
+
+//Since value returned from sum function is 6 and the value returned from product function is also 6, hence the number 123 is a spy number.
