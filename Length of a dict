@@ -1,0 +1,11 @@
+Find the length of a Python dictionary
+
+fruits = {"mango": 2, "orange": 6}
+
+# Use len() function to get the length of the dictionary
+print("Length:", len(fruits))
+Output:
+
+>>> 
+Length: 2
+>>>
