@@ -1,0 +1,24 @@
+Test whether a Python dictionary contains a specific key
+
+fruits = {}
+fruits["apple"] = 1
+fruits["mango"] = 2
+fruits["banana"] = 4
+
+# Use in.
+if "mango" in fruits:
+    print("Has mango")
+else:
+    print("No mango")
+
+# Use in on nonexistent key.
+if "orange" in fruits:
+    print("Has orange")
+else:
+    print("No orange")
+Output
+
+>>> 
+Has mango
+No orange
+>>>
