@@ -1,0 +1,38 @@
+Introduction to Python Iterators
+
+In Python, an iterator is an object that can be iterated (looped) upon. An iterator returns one element at a time from a sequence, like a list, tuple, or string. Understanding iterators and how to create them is essential for writing efficient and Pythonic code.
+
+This tutorial focuses on creating and using “iterators” through examples, with explanations provided after each example.
+
+Example 1: Using Built-In Iterators
+
+Python has several built-in data types that support iteration, such as lists, tuples, strings, and dictionaries. 
+These objects are iterable, meaning they can return an iterator using the iter() function.
+
+This example demonstrates how to convert a list into an iterator and manually iterate through it using the next() function. 
+It highlights the basics of using Python’s built-in iterators.
+
+Code:
+
+# A list of numbers
+numbers = [1, 2, 3, 4, 5]
+
+# Get an iterator from the list
+numbers_iter = iter(numbers)
+
+# Iterate through the iterator using the next() function
+print(next(numbers_iter))  # Output: 1
+print(next(numbers_iter))  # Output: 2
+print(next(numbers_iter))  # Output: 3
+print(next(numbers_iter))  # Output: 4
+print(next(numbers_iter))  # Output: 5
+
+# If we call next() again, it will raise StopIteration
+# print(next(numbers_iter))  # Uncommenting this line will raise StopIteration
+Explanation:
+
+'iter()' Function: Converts an iterable (like a list) into an iterator.
+
+'next()' Function: Retrieves the next item from the iterator.
+
+StopIteration: When the iterator is exhausted (no more items), calling 'next()' raises a 'StopIteration' exception.
