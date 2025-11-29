@@ -1,0 +1,113 @@
+Example 2: Creating a Custom Iterator
+
+To create a custom iterator, you need to define a class that implements two methods: '__iter__()' and '__next__()'.
+
+This example demonstrates how to create a custom iterator that generates the first n even numbers. The iterator is implemented using the '__iter__()' and '__next__()' methods.
+
+Code:
+
+# Custom iterator that returns the first n even numbers
+class EvenNumbers:
+    def __init__(self, max):
+        self.max = max  # Maximum number of even numbers
+        self.num = 0    # Start with 0
+
+    def __iter__(self):
+        return self  # Returning the iterator object itself
+
+    def __next__(self):
+        if self.num <= self.max:
+            result = self.num
+            self.num += 2  # Increment by 2 for even numbers
+            return result
+        else:
+            raise StopIteration  # Stop iteration when max is reached
+
+# Creating an instance of the custom iterator
+even_numbers = EvenNumbers(10)
+
+# Iterating through the custom iterator
+for num in even_numbers:
+    print(num)
+Output:
+
+0
+2
+4
+6
+8
+10
+Explanation:
+
+Custom Iterator (EvenNumbers):
+
+The '__iter__()' method returns the iterator object itself.
+The '__next__()' method defines the logic for iteration. It returns even numbers and raises StopIteration when the limit is reached.
+Example 3: Using Iterators with for Loops
+
+Python's 'for' loop automatically handles iterators, making it easier to iterate over sequences without explicitly calling next().
+
+This example shows how Python’s ‘for’ loop simplifies iteration by automatically handling the underlying iterator. It is the preferred method for iterating over sequences in Python.
+
+Code:
+
+# A list of colors
+colors = ["Red", "Green", "Blue"]
+____________________________________________________________________________________________________
+# Using a for loop to iterate over the list
+for color in colors:
+    print(color)
+Output:
+
+Red
+Green
+Blue
+Explanation:
+
+for Loop:
+
+The for loop automatically converts the list into an iterator and iterates over it.
+This is the most common way to use iterators in Python because it is simple and concise.
+Example 4: Creating an Infinite Iterator
+
+An infinite iterator generates an unending sequence of values. To stop the iteration, you must use a break condition.
+
+This example demonstrates how to create an infinite 'iterator' that generates natural numbers. It also shows how to use a break condition within a 'for' loop to control the iteration.
+
+Code:
+
+# Custom infinite iterator that generates natural numbers
+class InfiniteNumbers:
+    def __init__(self):
+        self.num = 1  # Start with 1
+
+    def __iter__(self):
+        return self
+
+    def __next__(self):
+        result = self.num
+        self.num += 1  # Increment by 1
+        return result
+
+# Creating an instance of the infinite iterator
+infinite_numbers = InfiniteNumbers()
+
+# Using a for loop with a break condition
+for number in infinite_numbers:
+    if number > 5:  # Breaking the loop after 5 numbers
+        break
+    print(number)
+Output:
+
+1
+2
+3
+4
+5
+Explanation:
+
+Infinite Iterator ('InfiniteNumbers'):
+
+The iterator generates an unending sequence of natural numbers.
+The 'for' loop includes a break condition ('if number > 5') to stop the iteration after 5 numbers.
+Example 5: Combining Iterators Using itertools
