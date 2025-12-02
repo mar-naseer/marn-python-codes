@@ -46,8 +46,8 @@ OS: Windows / Linux
 I love watching those green squares fill up on my GitHub graph — it keeps me motivated to code, learn, and grow every single day!
 
 
-## 👨‍💻 About Me
-M.A. Rehman Naseer
+## 👨‍💻 About Me:
+I'm M.A.Rehman Naseer.
 
 🎓 B.E in Computer Science (AI & ML)
 
