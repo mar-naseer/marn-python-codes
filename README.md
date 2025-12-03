@@ -3,7 +3,7 @@
 ### 🚀 Practice • Learn • Grow with Python.
 
 Welcome to my **Python Problem-Solving Repository!**  
-This repo is a collection of my daily and weekly Python practice programs — from beginner logic building to advanced coding concepts — all written with clarity and passion for learning.  
+This repo is a collection of my daily and weekly Python practice programs, from beginner logic building to advanced coding concepts — all written with clarity and passion for learning.  
 
 I maintain this repository to track my coding journey, strengthen my fundamentals, and build confidence for **technical interviews** and **real-world problem-solving**.
 
