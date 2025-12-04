@@ -7,6 +7,7 @@ This repo is a collection of my daily and weekly Python practice programs, from 
 
 I maintain this repository to track my coding journey, strengthen my fundamentals, and build confidence for **technical interviews** and **real-world problem-solving**.
 
+
 ---
 
 ## 🧠 What This Repo Covers ?
