@@ -1,4 +1,4 @@
-# 🐍 marn-python-codes.
+# 🐍 marn-python-codes
 
 ### 🚀 Practice • Learn • Grow with Python.
 
