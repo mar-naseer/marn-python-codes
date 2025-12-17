@@ -54,7 +54,7 @@ I'm M.A.Rehman Naseer.
 
 💡 Aspiring Python Developer | AI/ML Enthusiast | Data Science Learner
 
-📍 Hyderabad, India
+📍 Hyderabad, India.
 
 🌐 GitHub Profile : https://github.com/mar-naseer
 
