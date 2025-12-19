@@ -45,3 +45,5 @@ Enter a number:123
 123 is a Spy Number
 
 //Since value returned from sum function is 6 and the value returned from product function is also 6, hence the number 123 is a spy number.
+
+
