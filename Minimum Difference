@@ -59,4 +59,3 @@ if miniDifference != sys.maxsize:
 # be sys.maxsize in that case print it as invalid input
 else:
     print("Invalid input")
-
