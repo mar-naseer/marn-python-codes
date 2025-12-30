@@ -16,6 +16,7 @@ return False
 
 return True 
 
+
 ans = int(input("Enter a number to check for prime: "))
 
 print(f"The number {ans} is prime: {prime_chk(ans)}")
