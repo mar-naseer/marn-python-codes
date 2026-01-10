@@ -20,7 +20,7 @@ This repository contains clean and well-documented Python scripts for common pro
 - 🧮 Factorials, Primes, LCM, and GCD  
 - 🔡 String Manipulations (Reversing, Palindrome, etc..)  
 - 🔄 Lists, Functions, and User Input Programs  
-- 💡 Beginner to Intermediate Problem Solving  
+- 💡 Beginner to Intermediate Problem Solving.  
 
 Each program is simple, efficient, and beginner-friendly — written to improve problem-solving logic and Python syntax fluency.
 
