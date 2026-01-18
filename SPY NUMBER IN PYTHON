@@ -1,9 +1,12 @@
 A number whose sum of digits is equal to the product of digits is said to be a Spy Number.
 
+
 In order to check whether the given number is a spy number or not, we require two functions :
+
 
 sum_of_digits() - to calculate the sum of digits of the number
 product_of_digits () -to calculate the product of digits of the number
+
 
 ALGORITHM FOR SUM_OF_DIGITS FUNCTION:
 
