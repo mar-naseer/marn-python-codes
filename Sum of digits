@@ -13,3 +13,4 @@ sum += num % 10 # adding sum with the remainder of input number
 num //= 10 
 
 print(f"The sum of digits: {sum}")
+
