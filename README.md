@@ -12,7 +12,6 @@ I maintain this repository to track my coding journey, strengthen my fundamental
 ---
 
 
-
 ## 🧠 What This Repo Covers ?
 
 This repository contains clean and well-documented Python scripts for common problem statements, like:-
