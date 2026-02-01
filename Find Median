@@ -1,0 +1,21 @@
+Python Program to Find Median of List
+
+gvn_list = [5, 2, 4, 2, 1]
+gvn_list.sort()
+lst_leng = len(gvn_list)
+# Find the middle element of the given List by using (total length of list-1)
+# divided by 2( zero indexing)and store it in a variable.
+mid_vlu = (lst_leng-1)//2
+
+# Check if the given list is even or odd using the If conditional statement.
+if(lst_leng % 2 == 0):
+    # If the length of given list is even , median is the average of middle two elements.
+    res_vlu = (gvn_list[mid_vlu] + gvn_list[mid_vlu+1])/2
+else:
+    # If the length of given list is odd , Median  is the middle element.
+    res_vlu = gvn_list[mid_vlu]
+print('The Median of the Given List of Elements =', res_vlu)
+
+Output:
+
+The Median of the Given List of Elements = 2
