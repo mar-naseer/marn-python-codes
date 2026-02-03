@@ -6,6 +6,7 @@ This example demonstrates how to create a custom iterator that generates the fir
 
 Code:
 
+
 # Custom iterator that returns the first n even numbers
 class EvenNumbers:
     def __init__(self, max):
