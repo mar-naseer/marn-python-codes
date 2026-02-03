@@ -4,6 +4,7 @@ To create a custom iterator, you need to define a class that implements two meth
 
 This example demonstrates how to create a custom iterator that generates the first n even numbers. The iterator is implemented using the '__iter__()' and '__next__()' methods.
 
+
 Code:
 
 
