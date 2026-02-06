@@ -1,6 +1,6 @@
 # 🐍 marn-python-codes
 
-### 🚀 Practice • Learn • Grow with Python.
+### 🚀 Practice • Learn • Grow with Python
 
 
 
@@ -60,6 +60,7 @@ I'm M.A.Rehman Naseer.
 📍 Hyderabad, India.
 
 🌐 GitHub Profile : https://github.com/mar-naseer
+
 
 📧 Let’s connect and build something impactful!
 
