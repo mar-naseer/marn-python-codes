@@ -13,6 +13,7 @@ while (given_number > 0):
 # printing the digits count of the given number
 print("The total digits present in the given number=", digits_count)
 
+
 Output:
 
 The total digits present in the given number= 5
