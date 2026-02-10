@@ -7,7 +7,7 @@ fruits["banana"] = 4
 
 
 
-# Use in.
+# Use in
 if "mango" in fruits:
     print("Has mango")
 else:
