@@ -7,10 +7,10 @@ lsttofwrds = gvnstrng.split()
 
 # Get the last word from the above list of words using negative indexing
 lstwrd = lsttofwrds[-1]
+
 # Print the last word of the given string by printing the above variable.
 print('The last word in the given string {', gvnstrng, '} is:', lstwrd)
-
-
+___________________________________________________________________________
 Output:
 
 The last word in the given string { hello this is BTechgeeks } is: BTechgeeks
