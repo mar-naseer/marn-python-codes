@@ -1,7 +1,6 @@
 Introduction to Python Iterators
 
 In Python, an iterator is an object that can be iterated (looped) upon. An iterator returns one element at a time from a sequence, like a list, tuple, or string. Understanding iterators and how to create them is essential for writing efficient and Pythonic code.
-
 This tutorial focuses on creating and using “iterators” through examples, with explanations provided after each example.
 
 Example 1: Using Built-In Iterators
@@ -11,6 +10,7 @@ These objects are iterable, meaning they can return an iterator using the iter()
 
 This example demonstrates how to convert a list into an iterator and manually iterate through it using the next() function. 
 It highlights the basics of using Python’s built-in iterators.
+
 
 Code:
 
