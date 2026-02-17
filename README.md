@@ -27,6 +27,7 @@ This repository contains clean and well-documented Python scripts for common pro
 
 Each program is simple, efficient, and beginner-friendly — written to improve problem-solving logic and Python syntax fluency.
 
+
 ---
 ## 🎯 Goals
 Stay consistent with Python coding practice 🧩
