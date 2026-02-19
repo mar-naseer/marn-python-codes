@@ -1,6 +1,7 @@
 A number whose sum of digits is equal to the product of digits is said to be a Spy Number.
 
 
+
 In order to check whether the given number is a spy number or not, we require two functions :
 
 
