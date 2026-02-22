@@ -1,6 +1,6 @@
 Program to get the Last Word from a String in Python
 
-gvnstrng = 'hello this is BTechgeeks'
+gvnstrng = 'hello this is Naseer'
 
 # Split the words of the given string to a list of words
 lsttofwrds = gvnstrng.split()
