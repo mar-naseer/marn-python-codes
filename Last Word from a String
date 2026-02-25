@@ -9,6 +9,7 @@ lsttofwrds = gvnstrng.split()
 lstwrd = lsttofwrds[-1]
 
 
+
 # Print the last word of the given string by printing the above variable.
 print('The last word in the given string {', gvnstrng, '} is:', lstwrd)
 ___________________________________________________________________________
