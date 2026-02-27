@@ -12,7 +12,6 @@ This example demonstrates how to convert a list into an iterator and manually it
 It highlights the basics of using Python’s built-in iterators.
 
 
-
 Code:
 
 # A list of numbers
