@@ -2,6 +2,7 @@ Singly Linked List Creation
 
 Write a Python program to create a singly linked list, append some items and iterate through the list.
 ____________________________________________________________________
+
 class Node:
     # Singly linked node
     def __init__(self, data=None):
