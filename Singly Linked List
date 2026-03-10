@@ -30,6 +30,7 @@ class singly_linked_list:
             self.head = node
             self.tail = node
         self.count += 1
+
 items = singly_linked_list()
 items.append_item('PHP')
 items.append_item('Python')
