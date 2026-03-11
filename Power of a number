@@ -1,0 +1,37 @@
+Python Program to Compute the Power of a Number
+
+Power:
+
+A power is an expression that describes repeated multiplication of the same factor.
+
+# given base value and power value
+baseValue = 7
+powerValue = 4
+# initialize the result value to 1
+resultValue = 1
+# Loop till power becomes 0 using for loop
+for i in range(powerValue):
+    resultValue = resultValue*baseValue
+    # decrement the powerValue
+    powerValue = powerValue-1
+print("The result is", resultValue)
+
+(or)
+using pow
+
+# given base value and power value
+baseValue = 7
+powerValue = 4
+# calculating the power of base
+resultValue = pow(baseValue, powerValue)
+# print the result
+print("The result is", resultValue)
+
+(or)
+
+baseValue = 7
+powerValue = 4
+# calculating the power of base
+resultValue = baseValue**powerValue
+# print the result
+print("The result is", resultValue)
