@@ -1,0 +1,26 @@
+Palindrome Sum Iteration
+
+Write a Python program to reverse the digits of a given number and add them to the original. Repeat this procedure if the sum is not a palindrome.
+
+
+# Function to reverse a number and add it to the original number until a palindrome is obtained
+def rev_number(n):
+    s = 0  
+    while True:
+        k = str(n)  # Convert the number to a string for comparison
+        if k == k[::-1]:  # Check if the number is a palindrome
+            break  # If it is a palindrome, exit the loop
+        else:
+            m = int(k[::-1])  # Reverse the digits and convert back to an integer
+            n += m  # Add the reversed number to the original number
+            s += 1  # Increment the iteration count
+    return n  
+
+# Test cases
+print(rev_number(1234))  # Example: 1234 + 4321 = 5555 (palindrome)
+print(rev_number(1473))  # Example: 1473 + 3741 = 5214 + 4125 = 9339 (palindrome)
+_______________________________________________
+Sample Output:
+
+5555
+9339
