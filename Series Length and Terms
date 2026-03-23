@@ -1,0 +1,48 @@
+Write a Python program to print the length of the series and the series from the given 3rd term, 3rd last term and the sum of a series.
+
+Let X and Y denote the third and the third last term of the arithmetic progression respectively
+i.e. X=a+2d and Y=a+(n−3)d where a, d and n are what you would expect them to be.
+ Note that we are given X and Y
+
+Now, we are also given the sum of the n terms i.e. S=n2[2a+(n−1)d]
+
+⇒S=n2[(a+2d)+(a+(n−3)d)]
+
+⇒S=n2[X+Y]
+
+⇒n=2SX+Y
+
+# Input the third term of the series
+tn = int(input("Input third term of the series:"))
+# Input the 3rd last term
+tltn = int(input("Input 3rd last term:"))
+# Input the sum of the series
+s_sum = int(input("Sum of the series:"))
+# Calculate the length of the series using the formula for the sum of an arithmetic series
+n = int(2 * s_sum / (tn + tltn))
+print("Length of the series: ", n)
+
+# Calculate the common difference 'd' based on the length of the series
+if n - 5 == 0:
+    d = (s_sum - 3 * tn) // 6
+else:
+    d = (tltn - tn) / (n - 5)
+
+# Calculate the first term 'a' using the third term and common difference
+a = tn - 2 * d
+j = 0
+
+# Print the series
+print("Series:")
+for j in range(n - 1):
+    print(int(a), end=" ")
+    a += d
+print(int(a), end=" ")
+Sample Output:
+
+Input third term of the series: 3
+Input 3rd last term: 6
+Sum of the series: 36
+Length of the series:  8
+Series:
+1 2 3 4 5 6 7 8 
