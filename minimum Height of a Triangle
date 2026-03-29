@@ -1,0 +1,48 @@
+Program for Minimum Height of a Triangle with Given Base and Area in Python
+
+Knowing the relationship between the three allows you to calculate the minimum height of a triangle with base “b” and area “a.”
+
+The relationship between area, base, and height:
+
+area = (1/2) * base * height
+
+As a result, height can be calculated as follows:
+
+height = (2 * area)/ base
+_________________________________________________________________________________________________________
+
+Using Mathematical Formula (Static Input)
+Approach:
+
+Import  math module using the import keyword.
+Give the area as static input and store it in a variable.
+Give the base as static input and store it in another variable.
+Create a function to say Smallest_height() which takes the given area and base of the triangle as the arguments and returns the minimum height so that a triangle of least area and base can be formed.
+Inside the function, calculate the value of (2*gvn_areaoftri)/gvn_baseoftri using the above  mathematical formula and store it in another variable.
+Apply math.ceil() function to the above result and return the minimum height.
+Pass the given area and base of the triangle as the arguments to the Smallest_height() function and store it in a variable.
+Print the above result i.e, minimum height so that a triangle of the least area and base can be formed.
+The Exit of the Program.
+_________________________________________________________________________________________________________
+# Import math module using the import keyword.
+import math
+
+# Create a function to say Smallest_height() which takes the given area and base
+# of the triangle as the arguments and returns the minimum height so that a
+# triangle of least area and base can be formed.
+
+
+def Smallest_height(gvn_areaoftri, gvn_baseoftri):
+    rslt = (2*gvn_areaoftri)/gvn_baseoftri
+    # Apply math.ceil() function to the above result and return the minimum height.
+    return math.ceil(rslt)
+
+
+gvn_areaoftri = 6
+gvn_baseoftri = 3
+min_heigt = Smallest_height(gvn_areaoftri, gvn_baseoftri)
+print("The minimum height so that a triangle of the least area and base can be formed = ", min_heigt)
+
+Output:
+
+The minimum height so that a triangle of the least area and base can be formed =  4
