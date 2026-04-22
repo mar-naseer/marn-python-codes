@@ -17,7 +17,8 @@ if "orange" in fruits:
     print("Has orange")
 else:
     print("No orange")
-Output
+
+Sample Output:-
 
 >>> 
 Has mango
